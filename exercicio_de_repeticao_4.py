@@ -8,7 +8,7 @@ ano = 0
 
 while paisB > paisA:
     ano = ano + 1
-    paisA = paisA * (1 + taxaA)
-    paisB = paisB * (1 + taxaB)
+    paisA = paisA * (taxaA + 1)
+    paisB = paisB * (taxaB + 1)
 
-print("Anos necessários:", ano)
+print("São precisos", ano, "anos.")
