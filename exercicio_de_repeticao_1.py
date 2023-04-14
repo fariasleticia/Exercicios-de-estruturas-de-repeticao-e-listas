@@ -1,12 +1,9 @@
-lista_notas = []
-
 validade_nota = False
 
 while validade_nota == False:
     print ("Insira uma nota de 0 a 10:")
     entrada_numero = float(input())
     if entrada_numero >= 0 and entrada_numero <= 10:
-        lista_notas.append(entrada_numero)
         print ("Valeu carinha :)")
         validade_nota = True        
     else:
